@@ -3115,7 +3115,12 @@ MonoBehaviour:
   Neptune: {fileID: 306776860}
   Formalhaut: {fileID: 1404613642}
   Moon: {fileID: 1108342352}
-  ufo1: {fileID: 114300537}
+  BS_Genesis: {fileID: 114300537}
+  BC_StarTalon: {fileID: 367840035}
+  BS_Marduk: {fileID: 1492593762}
+  ISS_Perilous: {fileID: 113273108}
+  BC_Executor: {fileID: 882667592}
+  BS_Invader: {fileID: 1699025511}
 --- !u!4 &1159201209
 Transform:
   m_ObjectHideFlags: 0

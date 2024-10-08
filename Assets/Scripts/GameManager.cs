@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -27,12 +28,16 @@ public class NewBehaviourScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ufo1.ChangePositionToPlanet();
+        //ufo1.ChangePositionToPlanet();
     }
 
-    // Update is called once per frame
+    List<string> pathBSGenesis = new List<string> { "Earth", "Mars", "HR", "Jupiter", "Aldebaran", "Alioth", "Polaris", "Alkaid", "Vega", "Neptune", "Formalhaut", "Moon" };
+
     void Update()
     {
-        //Debug.Log("Hello: " + gameObject.name);
+        if (Input.GetKeyDown("space"))
+        {
+            Debug.Log("Quitting");
+        }
     }
 }
