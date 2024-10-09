@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 113273107}
   - component: {fileID: 113273109}
   - component: {fileID: 113273108}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ISS_Perilous
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -146,7 +146,7 @@ Transform:
   m_GameObject: {fileID: 113273106}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.3406582, y: 5.900368, z: 0.007309042}
+  m_LocalPosition: {x: -2.19, y: 2.37, z: 0.007309042}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -207,7 +207,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: b05b8d6a853b79f4c833f1bcccfaf078, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -230,7 +230,7 @@ GameObject:
   - component: {fileID: 114300536}
   - component: {fileID: 114300535}
   - component: {fileID: 114300537}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BS_Genesis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -280,7 +280,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: b05b8d6a853b79f4c833f1bcccfaf078, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -301,7 +301,7 @@ Transform:
   m_GameObject: {fileID: 114300534}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.3406582, y: 5.900368, z: 0.007309042}
+  m_LocalPosition: {x: 1.09, y: 3.68, z: 0.007309042}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -330,7 +330,7 @@ GameObject:
   - component: {fileID: 121128856}
   - component: {fileID: 121128858}
   - component: {fileID: 121128857}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -507,7 +507,7 @@ GameObject:
   - component: {fileID: 159063680}
   - component: {fileID: 159063679}
   - component: {fileID: 159063678}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Polaris
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -645,7 +645,7 @@ GameObject:
   - component: {fileID: 184670122}
   - component: {fileID: 184670121}
   - component: {fileID: 184670120}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -829,7 +829,7 @@ GameObject:
   - component: {fileID: 208130343}
   - component: {fileID: 208130345}
   - component: {fileID: 208130344}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1004,7 +1004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 306776862}
   - component: {fileID: 306776861}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Neptun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1094,7 +1094,7 @@ GameObject:
   - component: {fileID: 354757698}
   - component: {fileID: 354757697}
   - component: {fileID: 354757696}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Aldebaran
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1231,7 +1231,7 @@ GameObject:
   - component: {fileID: 367840034}
   - component: {fileID: 367840036}
   - component: {fileID: 367840035}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BC_StarTalon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1247,7 +1247,7 @@ Transform:
   m_GameObject: {fileID: 367840033}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.3406582, y: 5.900368, z: 0.007309042}
+  m_LocalPosition: {x: 1.68, y: -1.18, z: 0.007309042}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1308,7 +1308,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: b05b8d6a853b79f4c833f1bcccfaf078, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1331,7 +1331,7 @@ GameObject:
   - component: {fileID: 409093023}
   - component: {fileID: 409093025}
   - component: {fileID: 409093024}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1507,7 +1507,7 @@ GameObject:
   - component: {fileID: 427350831}
   - component: {fileID: 427350833}
   - component: {fileID: 427350832}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1907,7 +1907,7 @@ GameObject:
   - component: {fileID: 562642439}
   - component: {fileID: 562642441}
   - component: {fileID: 562642440}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2084,7 +2084,7 @@ GameObject:
   - component: {fileID: 583901196}
   - component: {fileID: 583901195}
   - component: {fileID: 583901194}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Alioth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2305,7 +2305,7 @@ GameObject:
   - component: {fileID: 632630155}
   - component: {fileID: 632630157}
   - component: {fileID: 632630156}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2481,7 +2481,7 @@ GameObject:
   - component: {fileID: 743433325}
   - component: {fileID: 743433327}
   - component: {fileID: 743433326}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2657,7 +2657,7 @@ GameObject:
   - component: {fileID: 882667591}
   - component: {fileID: 882667593}
   - component: {fileID: 882667592}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BC_Executor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2673,7 +2673,7 @@ Transform:
   m_GameObject: {fileID: 882667590}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.3406582, y: 5.900368, z: 0.007309042}
+  m_LocalPosition: {x: -1.29, y: 1.02, z: 0.007309042}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2734,7 +2734,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: b05b8d6a853b79f4c833f1bcccfaf078, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2755,7 +2755,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 915217543}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ufos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2771,7 +2771,7 @@ Transform:
   m_GameObject: {fileID: 915217542}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.46, y: 0.11963177, z: -0.007309042}
+  m_LocalPosition: {x: -3.46, y: 0.11963177, z: -0.58}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2795,7 +2795,7 @@ GameObject:
   - component: {fileID: 992900476}
   - component: {fileID: 992900475}
   - component: {fileID: 992900474}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: HR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2931,7 +2931,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1084506446}
   - component: {fileID: 1084506445}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Earth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3019,7 +3019,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1108342354}
   - component: {fileID: 1108342353}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Moon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3109,7 +3109,7 @@ GameObject:
   - component: {fileID: 1127873822}
   - component: {fileID: 1127873821}
   - component: {fileID: 1127873820}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Alkaid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3282,6 +3282,7 @@ MonoBehaviour:
   ISS_Perilous: {fileID: 113273108}
   BC_Executor: {fileID: 882667592}
   BS_Invader: {fileID: 1699025511}
+  currentFrame: 0
 --- !u!4 &1159201209
 Transform:
   m_ObjectHideFlags: 0
@@ -3309,7 +3310,7 @@ GameObject:
   - component: {fileID: 1383684114}
   - component: {fileID: 1383684117}
   - component: {fileID: 1383684116}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Mars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3445,7 +3446,7 @@ GameObject:
   - component: {fileID: 1404613645}
   - component: {fileID: 1404613644}
   - component: {fileID: 1404613643}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Formalhaut
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3583,7 +3584,7 @@ GameObject:
   - component: {fileID: 1466976892}
   - component: {fileID: 1466976891}
   - component: {fileID: 1466976893}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3771,7 +3772,7 @@ GameObject:
   - component: {fileID: 1492593761}
   - component: {fileID: 1492593763}
   - component: {fileID: 1492593762}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BS_Marduk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3787,7 +3788,7 @@ Transform:
   m_GameObject: {fileID: 1492593760}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.3406582, y: 5.900368, z: 0.007309042}
+  m_LocalPosition: {x: 3.38, y: 3.61, z: 0.007309042}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3848,7 +3849,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: b05b8d6a853b79f4c833f1bcccfaf078, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3870,7 +3871,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1513002198}
   - component: {fileID: 1513002197}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Jupiter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3959,7 +3960,7 @@ GameObject:
   - component: {fileID: 1699025510}
   - component: {fileID: 1699025512}
   - component: {fileID: 1699025511}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BS_Invader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3975,7 +3976,7 @@ Transform:
   m_GameObject: {fileID: 1699025509}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.3406582, y: 5.900368, z: 0.007309042}
+  m_LocalPosition: {x: 1.3406582, y: 5.900368, z: -100}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4036,7 +4037,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: b05b8d6a853b79f4c833f1bcccfaf078, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4059,7 +4060,7 @@ GameObject:
   - component: {fileID: 1904808138}
   - component: {fileID: 1904808140}
   - component: {fileID: 1904808139}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4236,7 +4237,7 @@ GameObject:
   - component: {fileID: 2027904732}
   - component: {fileID: 2027904735}
   - component: {fileID: 2027904734}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Vega
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4373,7 +4374,7 @@ GameObject:
   - component: {fileID: 2077542902}
   - component: {fileID: 2077542904}
   - component: {fileID: 2077542903}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4549,7 +4550,7 @@ GameObject:
   - component: {fileID: 2100578708}
   - component: {fileID: 2100578710}
   - component: {fileID: 2100578709}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
