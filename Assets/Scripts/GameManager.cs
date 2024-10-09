@@ -29,12 +29,12 @@ public class NewBehaviourScript : MonoBehaviour
     void Start()
     {
         //ufo1.ChangePositionToPlanet();
-        pathBS_Genesis =   new() { Aldebaran, Formalhaut };
-        pathBC_StarTalon = new() { Aldebaran, Formalhaut };
-        pathBS_Marduk =    new() { Aldebaran, Formalhaut };
-        pathISS_Perilous = new() { Aldebaran, Vega };
-        pathBC_Executor =  new() { Aldebaran, Vega };
-        pathBS_Invader =   new() { Aldebaran, Vega };
+        pathBS_Genesis = new() { Aldebaran, Formalhaut, HR, };
+        pathBC_StarTalon = new() { Aldebaran, Formalhaut, Formalhaut, };
+        pathBS_Marduk = new() { Aldebaran, Formalhaut, HR, };
+        pathISS_Perilous = new() { Aldebaran, Vega, Vega, };
+        pathBC_Executor = new() { Aldebaran, Vega, Alioth, };
+        pathBS_Invader = new() { Aldebaran, Vega, Alioth, };
 
 
         ApplyFrame();
