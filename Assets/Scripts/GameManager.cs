@@ -34,6 +34,7 @@ public class NewBehaviourScript : MonoBehaviour
     [Header("Egyéb")]
     public GameObject Boommmmmm;
     public TextMeshPro datas;
+    public List<GameObject> shieldsObj;
 
     public static Vector3 earthPosition = new();
 
@@ -80,6 +81,23 @@ public class NewBehaviourScript : MonoBehaviour
     }
     private void FixedUpdate()
     {
+        Vector3[] shieldsCoords = UfoBehavs.Select(x => x.RealPosition2d)
+                .Select(x => Shield.ShieldPosition(x))
+                .Where(x => !float.IsNaN(x.x))
+                .Distinct()
+                .ToArray();
+
+        shieldsObj.ForEach(x => x.SetActive(false));
+
+        for (int i = 0; i < shieldsCoords.Length && i < shieldsObj.Count; i++)
+        {
+            Vector2 coord = shieldsCoords[i];
+            float angle = Vector2.SignedAngle(new(0, 1), coord - (Vector2)Earth.transform.position);
+            Console.WriteLine(angle);
+            shieldsObj[i].SetActive(true);
+            shieldsObj[i].transform.eulerAngles = new(0, 0, angle);
+        }
+
         string[] shields = UfoBehavs.Select(x => x.currentRealCoordinate)
                 .Select(x => Shield.ShieldPosition(x))
                 .Where(x => !float.IsNaN(x.x))

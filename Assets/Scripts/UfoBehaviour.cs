@@ -40,13 +40,18 @@ public class UfoBehaviour : MonoBehaviour
     public Vector3 lastRealCoordinate = Vector3.zero;
     public Vector3 currentRealCoordinate = Vector3.zero;
 
+    public Vector3 RealPosition2d = Vector3.zero;
+    public Vector3 RealLastPosition2d = Vector3.zero;
+
     public async void ChangePositionToPlanet(GameObject targetObj)
     {
         Vector3 newRealCoordinate = targetObj.GetComponent<Planet>().coordinate;
 
-        Vector3 target = targetObj.transform.position;
+        Vector3 target2D = targetObj.transform.position;
         Vector3 oldPosition = transform.position;
-        target = new Vector3(target.x + Random.Range(-randomRange, randomRange), target.y + Random.Range(-randomRange, randomRange), oldPosition.z);
+        Vector3 oldPosition2D = RealPosition2d;
+        target2D.z = oldPosition2D.z;
+        Vector3 target = new(target2D.x + Random.Range(-randomRange, randomRange), target2D.y + Random.Range(-randomRange, randomRange), oldPosition.z);
         float now = 0;
         while (now < targetTime)
         {
@@ -57,9 +62,13 @@ public class UfoBehaviour : MonoBehaviour
             if (now > targetTime)
                 now = targetTime;
             transform.position = Vector3.Lerp(oldPosition, target, now / targetTime);
+
+            RealPosition2d = Vector3.Lerp(oldPosition2D, target2D, now / targetTime);
+
             currentRealCoordinate = Vector3.Lerp(lastRealCoordinate, newRealCoordinate, now / targetTime);
         }
 
+        RealLastPosition2d = target2D;
         lastRealCoordinate = newRealCoordinate;
     }
 }
