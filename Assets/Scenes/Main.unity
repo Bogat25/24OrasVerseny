@@ -6253,6 +6253,7 @@ MonoBehaviour:
   BC_Executor: {fileID: 882667592}
   BS_Invader: {fileID: 1699025511}
   Boommmmmm: {fileID: 0}
+  datas: {fileID: 240009590}
   currentFrame: 0
 --- !u!4 &1159201209
 Transform:
