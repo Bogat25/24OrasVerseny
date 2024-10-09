@@ -62,5 +62,10 @@ public class NewBehaviourScript : MonoBehaviour
     void ApplyFrame()
     {
         BS_Genesis.ChangePositionToPlanet(pathBS_Genesis[currentFrame].transform.position);
+        BC_StarTalon.ChangePositionToPlanet(pathBC_StarTalon[currentFrame].transform.position);
+        BS_Marduk.ChangePositionToPlanet(pathBS_Marduk[currentFrame].transform.position);
+        ISS_Perilous.ChangePositionToPlanet(pathISS_Perilous[currentFrame].transform.position);
+        BC_Executor.ChangePositionToPlanet(pathBC_Executor[currentFrame].transform.position);
+        BS_Invader.ChangePositionToPlanet(pathBS_Invader[currentFrame].transform.position);
     }
 }
