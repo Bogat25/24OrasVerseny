@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Collections;
@@ -14,14 +15,24 @@ public class UfoBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    
+
     }
 
-    public void ChangePositionToPlanet()
-    {
+    const float targetTime = 1;
 
-        var célPlanet = new Vector3(0, 0, 0);
-        transform.position = new Vector3(Random.Range(-10, 10), Random.Range(-10, 10), 0);
+    public async void ChangePositionToPlanet(Vector3 target)
+    {
+        Vector3 oldPosition = transform.position;
+        float now = 0;
+        while (now < targetTime)
+        {
+            await Awaitable.FixedUpdateAsync();
+            now += Time.fixedDeltaTime;
+            Debug.Log(now);
+            
+            if(now > targetTime)
+                now = targetTime;
+            transform.position = Vector3.Lerp(oldPosition, target, now / targetTime);
+        }
     }
 }

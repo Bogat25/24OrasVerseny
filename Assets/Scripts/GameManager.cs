@@ -29,14 +29,16 @@ public class NewBehaviourScript : MonoBehaviour
     void Start()
     {
         //ufo1.ChangePositionToPlanet();
+        pathBSGenesis = new() {  };
     }
 
-    List<string> pathBSGenesis = new List<string> { "Earth", "Mars", "HR", "Jupiter", "Aldebaran", "Alioth", "Polaris", "Alkaid", "Vega", "Neptune", "Formalhaut", "Moon" };
+    private List<GameObject> pathBSGenesis;
 
     void Update()
     {
         if (Input.GetKeyDown("space"))
         {
+            BS_Genesis.ChangePositionToPlanet(Moon.transform.position);
             Debug.Log("Quitting");
         }
     }
