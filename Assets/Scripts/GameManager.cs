@@ -51,10 +51,14 @@ public class NewBehaviourScript : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown(KeyCode.RightArrow) && currentFrame < pathBC_Executor.Count - 1)
         {
             currentFrame++;
-
+            ApplyFrame();
+        }
+        if (Input.GetKeyDown(KeyCode.LeftArrow) && currentFrame > 0)
+        {
+            currentFrame--;
             ApplyFrame();
         }
     }
