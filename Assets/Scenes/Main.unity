@@ -667,8 +667,7 @@ GameObject:
   m_Component:
   - component: {fileID: 159063681}
   - component: {fileID: 159063680}
-  - component: {fileID: 159063679}
-  - component: {fileID: 159063678}
+  - component: {fileID: 159063682}
   m_Layer: 7
   m_Name: Polaris
   m_TagString: Untagged
@@ -676,50 +675,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &159063678
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 159063677}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'alma
-
-'
---- !u!222 &159063679
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 159063677}
-  m_CullTransparentMesh: 1
 --- !u!212 &159063680
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -795,6 +750,19 @@ RectTransform:
   m_AnchoredPosition: {x: -3.7633228, y: -3.8458233}
   m_SizeDelta: {x: 2.56, y: 2.56}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &159063682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159063677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c8313e32c74974dad859428a66c3fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coordinate: {x: 15.612281, y: 89.21, z: 47.37}
 --- !u!1 &170484116
 GameObject:
   m_ObjectHideFlags: 0
@@ -1846,6 +1814,7 @@ GameObject:
   m_Component:
   - component: {fileID: 306776862}
   - component: {fileID: 306776861}
+  - component: {fileID: 306776863}
   m_Layer: 7
   m_Name: Neptun
   m_TagString: Untagged
@@ -1924,6 +1893,19 @@ Transform:
   - {fileID: 1466976890}
   m_Father: {fileID: 545228958}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &306776863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306776860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c8313e32c74974dad859428a66c3fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coordinate: {x: 9.626558, y: -1.58, z: 39.3}
 --- !u!1 &354757695
 GameObject:
   m_ObjectHideFlags: 0
@@ -3609,8 +3591,7 @@ GameObject:
   m_Component:
   - component: {fileID: 583901197}
   - component: {fileID: 583901196}
-  - component: {fileID: 583901195}
-  - component: {fileID: 583901194}
+  - component: {fileID: 583901198}
   m_Layer: 7
   m_Name: Alioth
   m_TagString: Untagged
@@ -3618,50 +3599,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &583901194
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 583901193}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'alma
-
-'
---- !u!222 &583901195
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 583901193}
-  m_CullTransparentMesh: 1
 --- !u!212 &583901196
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3737,6 +3674,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0.31667805, y: -2.8258233}
   m_SizeDelta: {x: 2.56, y: 2.56}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &583901198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583901193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c8313e32c74974dad859428a66c3fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coordinate: {x: 14.89264, y: 55.49, z: 12.59}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -5169,6 +5119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1108342354}
   - component: {fileID: 1108342353}
+  - component: {fileID: 1108342355}
   m_Layer: 7
   m_Name: Moon
   m_TagString: Untagged
@@ -5247,6 +5198,19 @@ Transform:
   - {fileID: 1904808138}
   m_Father: {fileID: 545228958}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1108342355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108342352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c8313e32c74974dad859428a66c3fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coordinate: {x: 0.5608008, y: -4.953, z: -2.435}
 --- !u!1 &1127873819
 GameObject:
   m_ObjectHideFlags: 0
@@ -5257,8 +5221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1127873823}
   - component: {fileID: 1127873822}
-  - component: {fileID: 1127873821}
-  - component: {fileID: 1127873820}
+  - component: {fileID: 1127873824}
   m_Layer: 7
   m_Name: Alkaid
   m_TagString: Untagged
@@ -5266,50 +5229,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1127873820
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1127873819}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'alma
-
-'
---- !u!222 &1127873821
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1127873819}
-  m_CullTransparentMesh: 1
 --- !u!212 &1127873822
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5385,6 +5304,19 @@ RectTransform:
   m_AnchoredPosition: {x: 1.4315023, y: -5.322305}
   m_SizeDelta: {x: 2.56, y: 2.56}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1127873824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127873819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c8313e32c74974dad859428a66c3fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coordinate: {x: 14.992706, y: 49.11, z: 7.13}
 --- !u!1 &1159201207
 GameObject:
   m_ObjectHideFlags: 0
@@ -5598,8 +5530,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1404613646}
   - component: {fileID: 1404613645}
-  - component: {fileID: 1404613644}
-  - component: {fileID: 1404613643}
+  - component: {fileID: 1404613647}
   m_Layer: 7
   m_Name: Formalhaut
   m_TagString: Untagged
@@ -5607,50 +5538,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1404613643
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1404613642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'alma
-
-'
---- !u!222 &1404613644
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1404613642}
-  m_CullTransparentMesh: 1
 --- !u!212 &1404613645
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5726,6 +5613,19 @@ RectTransform:
   m_AnchoredPosition: {x: 13.236225, y: -4.9950867}
   m_SizeDelta: {x: 2.56, y: 2.56}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1404613647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404613642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c8313e32c74974dad859428a66c3fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coordinate: {x: 14.376116, y: -29.29, z: 9.12}
 --- !u!1 &1466976889
 GameObject:
   m_ObjectHideFlags: 0
@@ -6396,7 +6296,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2027904733}
   - component: {fileID: 2027904732}
-  - component: {fileID: 2027904735}
   - component: {fileID: 2027904734}
   m_Layer: 7
   m_Name: Vega
@@ -6489,41 +6388,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2027904731}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: 18c8313e32c74974dad859428a66c3fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'alma
-
-'
---- !u!222 &2027904735
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2027904731}
-  m_CullTransparentMesh: 1
+  coordinate: {x: 14.3745575, y: 38.48, z: 26.07}
 --- !u!1 &2077542901
 GameObject:
   m_ObjectHideFlags: 0
