@@ -1,11 +1,14 @@
 
+using UnityEditor.Build.Content;
 using UnityEngine;
 
 public class UfoBehaviour : MonoBehaviour
 {
+    private LineRenderer lineRenderer;
     // Start is called before the first frame update
     void Start()
     {
+        lineRenderer = GetComponentInChildren<LineRenderer>();
         scale = Random.Range(40, 60);
         r = Random.Range(-limits, limits);
     }
@@ -16,6 +19,9 @@ public class UfoBehaviour : MonoBehaviour
 
     void Update()
     {
+        lineRenderer.SetPosition(0, transform.position);
+        lineRenderer.SetPosition(1, NewBehaviourScript.earthPosition);
+
         r += Time.deltaTime * scale;
 
         transform.eulerAngles = new(0, 0, r);

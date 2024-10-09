@@ -31,6 +31,8 @@ public class NewBehaviourScript : MonoBehaviour
     [Header("Egyéb")]
     public GameObject Boommmmmm;
 
+    public static Vector3 earthPosition = new();
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,7 +44,7 @@ public class NewBehaviourScript : MonoBehaviour
         pathBC_Executor = new() { Aldebaran, Vega, Alioth, Alioth, Alioth, Earth };
         pathBS_Invader = new() { Aldebaran, Vega, Alioth, Neptune, Moon, Earth };
 
-
+        earthPosition = Earth.transform.position;
         ApplyFrame();
     }
 
