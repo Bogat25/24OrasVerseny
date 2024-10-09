@@ -85,8 +85,7 @@ public class NewBehaviourScript : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        Vector3[] shieldsCoords = UfoBehavs.Select(x => x.RealPosition2d)
-                .Select(x => Shield.ShieldPosition(x))
+        Vector3[] shieldsCoords = UfoBehavs.Select(x => x.RealPosition2d - Earth.transform.position)
                 .Where(x => !float.IsNaN(x.x))
                 .Distinct()
                 .ToArray();
@@ -96,7 +95,7 @@ public class NewBehaviourScript : MonoBehaviour
         for (int i = 0; i < shieldsCoords.Length && i < shieldsObj.Count; i++)
         {
             Vector2 coord = shieldsCoords[i];
-            float angle = Vector2.SignedAngle(new(0, 1), coord - (Vector2)Earth.transform.position);
+            float angle = Vector2.SignedAngle(new(0, 1), coord);
             Console.WriteLine(angle);
             shieldsObj[i].SetActive(true);
             shieldsObj[i].transform.eulerAngles = new(0, 0, angle);
