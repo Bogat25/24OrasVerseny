@@ -87,6 +87,7 @@ public class NewBehaviourScript : MonoBehaviour
     {
         Vector3[] shieldsCoords = UfoBehavs.Select(x => x.RealPosition2d - Earth.transform.position)
                 .Where(x => !float.IsNaN(x.x))
+                .Where(x => x.magnitude != 0)
                 .Distinct()
                 .ToArray();
 
