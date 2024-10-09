@@ -696,6 +696,8 @@ MonoBehaviour:
   r: 0
   lastRealCoordinate: {x: 0, y: 0, z: 0}
   currentRealCoordinate: {x: 0, y: 0, z: 0}
+  RealPosition2d: {x: 0, y: 0, z: 0}
+  RealLastPosition2d: {x: 0, y: 0, z: 0}
 --- !u!212 &113273109
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -861,6 +863,8 @@ MonoBehaviour:
   r: 0
   lastRealCoordinate: {x: 0, y: 0, z: 0}
   currentRealCoordinate: {x: 0, y: 0, z: 0}
+  RealPosition2d: {x: 0, y: 0, z: 0}
+  RealLastPosition2d: {x: 0, y: 0, z: 0}
 --- !u!222 &114300538
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2665,6 +2669,8 @@ MonoBehaviour:
   r: 0
   lastRealCoordinate: {x: 0, y: 0, z: 0}
   currentRealCoordinate: {x: 0, y: 0, z: 0}
+  RealPosition2d: {x: 0, y: 0, z: 0}
+  RealLastPosition2d: {x: 0, y: 0, z: 0}
 --- !u!212 &367840036
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4732,7 +4738,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 736b726edc7683a4181d9e9366ec1d0d, type: 2}
+  - {fileID: 2100000, guid: 052eeef63af076247acd0390fef3139b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5271,6 +5277,8 @@ MonoBehaviour:
   r: 0
   lastRealCoordinate: {x: 0, y: 0, z: 0}
   currentRealCoordinate: {x: 0, y: 0, z: 0}
+  RealPosition2d: {x: 0, y: 0, z: 0}
+  RealLastPosition2d: {x: 0, y: 0, z: 0}
 --- !u!212 &882667593
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5822,6 +5830,93 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coordinate: {x: 15.673109, y: 7.24, z: 15.01}
+--- !u!1 &1055070136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1055070138}
+  - component: {fileID: 1055070137}
+  m_Layer: 0
+  m_Name: Bummmm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1055070137
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055070136}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1090
+  m_Sprite: {fileID: -4576474941425225638, guid: e98f492ac0aeb9544a436e2f6adb58cb, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1055070138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055070136}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.56, y: -2.16, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1062395983
 GameObject:
   m_ObjectHideFlags: 0
@@ -6686,7 +6781,7 @@ MonoBehaviour:
   ISS_Perilous: {fileID: 113273108}
   BC_Executor: {fileID: 882667592}
   BS_Invader: {fileID: 1699025511}
-  Boommmmmm: {fileID: 0}
+  Boommmmmm: {fileID: 1055070136}
   datas: {fileID: 240009590}
   shieldsObj:
   - {fileID: 1126100523}
@@ -7743,6 +7838,8 @@ MonoBehaviour:
   r: 0
   lastRealCoordinate: {x: 0, y: 0, z: 0}
   currentRealCoordinate: {x: 0, y: 0, z: 0}
+  RealPosition2d: {x: 0, y: 0, z: 0}
+  RealLastPosition2d: {x: 0, y: 0, z: 0}
 --- !u!212 &1492593763
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8566,6 +8663,8 @@ MonoBehaviour:
   r: 0
   lastRealCoordinate: {x: 0, y: 0, z: 0}
   currentRealCoordinate: {x: 0, y: 0, z: 0}
+  RealPosition2d: {x: 0, y: 0, z: 0}
+  RealLastPosition2d: {x: 0, y: 0, z: 0}
 --- !u!212 &1699025512
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9675,3 +9774,4 @@ SceneRoots:
   - {fileID: 915217543}
   - {fileID: 542031549}
   - {fileID: 545228958}
+  - {fileID: 1055070138}

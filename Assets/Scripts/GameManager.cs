@@ -72,11 +72,15 @@ public class NewBehaviourScript : MonoBehaviour
         {
             currentFrame++;
             ApplyFrame();
+            if(currentFrame == 5)
+                Boom(0, 3, 0.6f, 0.4f);
         }
         if (Input.GetKeyDown(KeyCode.LeftArrow) && currentFrame > 0)
         {
             currentFrame--;
             ApplyFrame();
+            if (currentFrame == 4)
+                Boom(3, 0, 0.0f, 0.7f);
         }
     }
     private void FixedUpdate()
@@ -119,5 +123,22 @@ public class NewBehaviourScript : MonoBehaviour
         ISS_Perilous.ChangePositionToPlanet(pathISS_Perilous[currentFrame]);
         BC_Executor.ChangePositionToPlanet(pathBC_Executor[currentFrame]);
         BS_Invader.ChangePositionToPlanet(pathBS_Invader[currentFrame]);
+    }
+
+    public async void Boom(float from, float to, float delay, float targetTime)
+    {
+        await Awaitable.WaitForSecondsAsync(delay);
+
+        float now = 0;
+        while (now < targetTime)
+        {
+            await Awaitable.FixedUpdateAsync();
+            now += Time.fixedDeltaTime;
+            Debug.Log(now);
+
+            if (now > targetTime)
+                now = targetTime;
+            Boommmmmm.transform.localScale = Vector3.Lerp(new(from, from, from), new(to, to, to), now / targetTime);
+        }
     }
 }
