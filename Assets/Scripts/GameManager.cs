@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
+    [Header("Bolygók")]
     public GameObject Earth;
     public GameObject Mars;
     public GameObject HR;
@@ -19,12 +20,17 @@ public class NewBehaviourScript : MonoBehaviour
     public GameObject Formalhaut;
     public GameObject Moon;
 
+    [Header("Ufók")]
     public UfoBehaviour BS_Genesis;
     public UfoBehaviour BC_StarTalon;
     public UfoBehaviour BS_Marduk;
     public UfoBehaviour ISS_Perilous;
     public UfoBehaviour BC_Executor;
     public UfoBehaviour BS_Invader;
+
+    [Header("Egyéb")]
+    public GameObject Boommmmmm;
+
     // Start is called before the first frame update
     void Start()
     {
