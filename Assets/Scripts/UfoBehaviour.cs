@@ -59,5 +59,7 @@ public class UfoBehaviour : MonoBehaviour
             transform.position = Vector3.Lerp(oldPosition, target, now / targetTime);
             currentRealCoordinate = Vector3.Lerp(lastRealCoordinate, newRealCoordinate, now / targetTime);
         }
+
+        lastRealCoordinate = newRealCoordinate;
     }
 }
