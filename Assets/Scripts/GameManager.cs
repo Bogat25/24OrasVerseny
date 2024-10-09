@@ -82,8 +82,9 @@ public class NewBehaviourScript : MonoBehaviour
     {
         string[] shields = UfoBehavs.Select(x => x.currentRealCoordinate)
                 .Select(x => Shield.ShieldPosition(x))
-                .Select(x => $"({x.x:0.00}, {x.y:0.00}, {x.z:0.00})")
+                .Where(x => !float.IsNaN(x.x))
                 .Distinct()
+                .Select(x => $"({x.x:0.00}, {x.y:0.00}, {x.z:0.00})")
                 .ToArray();
 
         StringBuilder bd = new();

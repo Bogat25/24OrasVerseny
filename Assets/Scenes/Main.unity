@@ -154,7 +154,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.01704, y: -2.61}
-  m_SizeDelta: {x: 4.335, y: 1.811}
+  m_SizeDelta: {x: 8.42, y: 1.811}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &21071457
 MonoBehaviour:
@@ -203,8 +203,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 9
+  m_fontSizeBase: 9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -330,7 +330,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.2, y: -2.61}
-  m_SizeDelta: {x: 4.335, y: 1.811}
+  m_SizeDelta: {x: 8.42, y: 1.811}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &86596789
 MonoBehaviour:
@@ -379,8 +379,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 9
+  m_fontSizeBase: 9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -662,6 +662,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   r: 0
+  lastRealCoordinate: {x: 0, y: 0, z: 0}
+  currentRealCoordinate: {x: 0, y: 0, z: 0}
 --- !u!212 &113273109
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -825,6 +827,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   r: 0
+  lastRealCoordinate: {x: 0, y: 0, z: 0}
+  currentRealCoordinate: {x: 0, y: 0, z: 0}
 --- !u!222 &114300538
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1687,8 +1691,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.3456, y: 3.8206}
-  m_SizeDelta: {x: 2.2649, y: 1.8347}
+  m_AnchoredPosition: {x: -5.8745, y: 3.8206}
+  m_SizeDelta: {x: 3.207, y: 1.8347}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &240009590
 MonoBehaviour:
@@ -2295,7 +2299,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.18, y: -2.63}
-  m_SizeDelta: {x: 4.335, y: 1.811}
+  m_SizeDelta: {x: 8.42, y: 1.811}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &326087201
 MonoBehaviour:
@@ -2344,8 +2348,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 9
+  m_fontSizeBase: 9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2591,6 +2595,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   r: 0
+  lastRealCoordinate: {x: 0, y: 0, z: 0}
+  currentRealCoordinate: {x: 0, y: 0, z: 0}
 --- !u!212 &367840036
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4989,6 +4995,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   r: 0
+  lastRealCoordinate: {x: 0, y: 0, z: 0}
+  currentRealCoordinate: {x: 0, y: 0, z: 0}
 --- !u!212 &882667593
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5292,7 +5300,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.00000042096, y: -2.65}
-  m_SizeDelta: {x: 4.335, y: 1.811}
+  m_SizeDelta: {x: 8.42, y: 1.811}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &923463593
 MonoBehaviour:
@@ -5341,8 +5349,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 9
+  m_fontSizeBase: 9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5575,7 +5583,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.2, y: -2.61}
-  m_SizeDelta: {x: 4.335, y: 1.811}
+  m_SizeDelta: {x: 8.42, y: 1.811}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1065297066
 MonoBehaviour:
@@ -5624,8 +5632,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 9
+  m_fontSizeBase: 9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6305,7 +6313,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.2, y: -2.61}
-  m_SizeDelta: {x: 4.335, y: 1.811}
+  m_SizeDelta: {x: 8.42, y: 1.811}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1194407608
 MonoBehaviour:
@@ -6354,8 +6362,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 9
+  m_fontSizeBase: 9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6481,7 +6489,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.2, y: -2.61}
-  m_SizeDelta: {x: 4.335, y: 1.811}
+  m_SizeDelta: {x: 8.42, y: 1.811}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1216608048
 MonoBehaviour:
@@ -6530,8 +6538,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 9
+  m_fontSizeBase: 9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6657,7 +6665,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.14, y: -2.63}
-  m_SizeDelta: {x: 4.335, y: 1.811}
+  m_SizeDelta: {x: 8.42, y: 1.811}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1282311566
 MonoBehaviour:
@@ -6706,8 +6714,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 9
+  m_fontSizeBase: 9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7269,6 +7277,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   r: 0
+  lastRealCoordinate: {x: 0, y: 0, z: 0}
+  currentRealCoordinate: {x: 0, y: 0, z: 0}
 --- !u!212 &1492593763
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7359,7 +7369,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.06, y: -2.66}
-  m_SizeDelta: {x: 4.335, y: 1.811}
+  m_SizeDelta: {x: 8.42, y: 1.811}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1508004426
 MonoBehaviour:
@@ -7408,8 +7418,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 9
+  m_fontSizeBase: 9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7638,7 +7648,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.2, y: -2.61}
-  m_SizeDelta: {x: 4.335, y: 1.811}
+  m_SizeDelta: {x: 8.42, y: 1.811}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1633039881
 MonoBehaviour:
@@ -7687,8 +7697,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 9
+  m_fontSizeBase: 9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7814,7 +7824,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.13, y: -3.09}
-  m_SizeDelta: {x: 4.335, y: 1.811}
+  m_SizeDelta: {x: 8.42, y: 1.811}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1640316819
 MonoBehaviour:
@@ -7863,8 +7873,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 9
+  m_fontSizeBase: 9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8003,6 +8013,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   r: 0
+  lastRealCoordinate: {x: 0, y: 0, z: 0}
+  currentRealCoordinate: {x: 0, y: 0, z: 0}
 --- !u!212 &1699025512
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8730,7 +8742,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.068, y: -2.694}
-  m_SizeDelta: {x: 4.335, y: 1.811}
+  m_SizeDelta: {x: 8.42, y: 1.811}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2133354811
 MonoBehaviour:
@@ -8779,8 +8791,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 9
+  m_fontSizeBase: 9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
