@@ -29,17 +29,38 @@ public class NewBehaviourScript : MonoBehaviour
     void Start()
     {
         //ufo1.ChangePositionToPlanet();
-        pathBSGenesis = new() {  };
+        pathBS_Genesis =   new() { Aldebaran, Formalhaut };
+        pathBC_StarTalon = new() { Aldebaran, Formalhaut };
+        pathBS_Marduk =    new() { Aldebaran, Formalhaut };
+        pathISS_Perilous = new() { Aldebaran, Vega };
+        pathBC_Executor =  new() { Aldebaran, Vega };
+        pathBS_Invader =   new() { Aldebaran, Vega };
+
+
+        ApplyFrame();
     }
 
-    private List<GameObject> pathBSGenesis;
+    private List<GameObject> pathBS_Genesis;
+    private List<GameObject> pathBC_StarTalon;
+    private List<GameObject> pathBS_Marduk;
+    private List<GameObject> pathISS_Perilous;
+    private List<GameObject> pathBC_Executor;
+    private List<GameObject> pathBS_Invader;
+
+    public int currentFrame = 0;
 
     void Update()
     {
         if (Input.GetKeyDown("space"))
         {
-            BS_Genesis.ChangePositionToPlanet(Moon.transform.position);
-            Debug.Log("Quitting");
+            currentFrame++;
+
+            ApplyFrame();
         }
+    }
+
+    void ApplyFrame()
+    {
+        BS_Genesis.ChangePositionToPlanet(pathBS_Genesis[currentFrame].transform.position);
     }
 }
